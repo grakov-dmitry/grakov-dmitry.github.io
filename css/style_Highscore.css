@@ -1,0 +1,74 @@
+@font-face {
+	font-family: 'NewRocker-Regular';
+	src: url(../fonts/NewRocker-Regular.otf);
+	font-weight: 400;
+	font-style: normal;
+}
+
+h1{
+	font-family: 'NewRocker-Regular';
+	color: #04ff00;
+	text-align: center;
+	font-size: 88px;
+	margin-top: 0px;
+}
+
+td{
+	font-family: 'NewRocker-Regular';
+	color: #04ff00;
+	text-align: center;
+}
+
+p{
+	font-family: 'NewRocker-Regular';
+	color: #04ff00;
+	text-align: center;
+	font-size: 50px;
+	margin: 2px;
+
+}
+.Background{
+	background-image: url(../img/background.jpeg);
+	height: 900px;
+	width: 1600px;
+}
+.mainground{
+	display: flex;
+    justify-content: center;
+}
+table{
+	text-align: center;
+	background-color: rgba(0,0,0,.5);
+	
+}
+#tbl{
+	background-color: rgba(0,0,0,.0);
+}
+
+tr{
+	color: #04ff00;
+	font-family: 'NewRocker-Regular';
+
+}
+
+body{
+	margin: 0;
+}
+
+#HS{
+	padding-left: 20px;
+	margin-left: 7px;
+}
+
+#Main_menu {
+	color: #04ff00;
+	height: 50px;
+	width: 150px;
+	background-color: rgba(0,0,0,.5);
+	border-radius: 30px;
+	text-align: center;	
+}
+
+#Center{
+	text-align: center;	
+}

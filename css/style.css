@@ -1,0 +1,456 @@
+@font-face {
+	font-family: 'NewRocker-Regular';
+	src: url(../fonts/NewRocker-Regular.otf);
+	font-weight: 400;
+	font-style: normal;
+}
+
+body{
+	height: 100%;
+	width: 100%;
+	padding: 0 auto;
+	margin: 0 auto;
+}
+.Background{
+	background-image: url(../img/background.jpeg);
+	height: 900px;
+	width: 1600px;
+}
+.mainground{
+	display: flex;
+    justify-content: center;
+}
+#abc{
+font-family: 'NewRocker-Regular';
+color: #04ff00;
+	text-align: center;
+	font-size: 50px;
+	margin-top: 0px;
+}
+p{
+font-family: 'NewRocker-Regular';
+color: #04ff00;
+	text-align: center;
+	font-size: 50px;
+	margin-top: 0px;
+	text-shadow: 5px 5px #582a2a, 2px 2px #777;
+    transition: all 1s;
+}
+h1{
+	font-family: 'NewRocker-Regular';
+	color: #04ff00;
+	text-align: center;
+	font-size: 88px;
+	margin-top: 0px;
+	margin-bottom: -13px;
+	text-shadow: 5px 5px #582a2a, 2px 2px #777;
+    transition: all 1s;
+}
+a{
+	font-family: 'NewRocker-Regular';
+	color: #04ff00;
+}
+#Send {
+	color: #04ff00;
+	height: 50px;
+	width: 150px;
+	background-color: rgba(0,0,0,.3);
+	border-radius: 30px;
+}
+button{
+	color: #04ff00;
+	height: 50px;
+	width: 150px;
+	background-color: rgba(0,0,0,.3);
+	border-radius: 30px;
+}
+.Button1:hover{
+	background-color: rgba(0,0,0,.8);
+}
+.dificult-active{
+	background-color: rgb(33 255 0 / 63%);
+}
+#menu{
+	padding-left: 486px;
+}
+#How_to_play{
+	background-color: rgba(0,0,0,.6);
+    width: 600px;
+    height: 500px;
+    padding: 15px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    color: #04ff00;
+    display: none;
+    position: absolute;
+    margin: auto;
+    font-size: 24px;
+    margin-left: 476px;
+ }
+#How_to_play:target{
+	display: block;
+   	margin-top: 20px;
+ }
+ #How_to_play p{
+ 	height: 380px;
+ }
+ #How_to_play button{
+ 	text-align: center;
+ 	
+ }
+#Close_button{
+	text-align: center;
+    margin-top: 0px;
+}
+
+
+
+
+#Profile{
+	background-color: rgba(0,0,0,.6);
+    width: 620px;
+    height: 500px;
+    padding: 15px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    color: #04ff00;
+    display: none;
+    position: absolute;
+    margin: auto;
+    font-size: 24px;
+    margin-left: 476px;
+ }
+#Profile:target{
+	display: block;
+   	margin-top: 20px;
+ }
+#Profile p{
+ 	height: 25px;
+ 	font-family: 'NewRocker-Regular';
+ }
+#Profile td{
+	font-family: 'NewRocker-Regular';
+}
+#btnsave:hover{
+	background-color: rgba(0,0,0,.8);
+}
+#Close_button2{
+	text-align: center;
+    margin-top: 0px;
+}
+#Profile_buttons{
+	padding-top: 250px;
+}
+#btnclear:hover{
+	background-color: rgba(0,0,0,.8);
+}
+#Button_next{
+	text-align: center;
+	
+}
+#For_game_start {
+	text-align: center;
+	
+}
+#For_game_start:hover{
+	background-color: rgba(0,0,0,.8);
+	
+}
+
+
+
+
+
+
+#About_game{
+	background-color: rgba(0,0,0,.6); 
+  	width: 600px;
+    height: 500px;
+    padding: 15px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    color: #04ff00;
+    display: none;
+    position: absolute;
+    margin: auto;
+    font-size: 24px;
+    margin-left: 476px;
+ }
+#About_game:target{
+	display: block;
+   	margin-top: 20px;
+}
+#Close_button2{
+    margin-top: 0px;   
+}
+#About_game p{
+	height: 380px;
+}
+#Select_a_card_shirt p{
+	font-size: 48px;
+	margin-top: 0;
+}
+
+p{	font-family: 'NewRocker-Regular';
+	font-size: 24px;
+	color: #04ff00;
+}
+.select_shirt{
+	display: flex;
+    justify-content: center;
+}
+#Card_shirt button{
+	border-radius: 10px;
+	height: 183px;
+	width: 130px;
+	margin-right: 40px;
+}
+#Card_shirt_one{
+	background-image: url(../img/Card_shirt_1.png);	
+	height: 100%;
+	width: 100%;
+}
+#Card_shirt_two{
+	background-image: url(../img/Card_shirt_2.png);	
+	height: 100%;
+	width: 100%;
+}
+#Card_shirt_three{
+	background-image: url(../img/Card_shirt_3.png);	
+	height: 100%;
+	width: 100%;
+}
+#Card_shirt_four{
+	background-image: url(../img/Card_shirt_4.png);	
+	height: 100%;
+	width: 100%;
+}
+#Card_shirt_five{
+	background-image: url(../img/Card_shirt_5.png);	
+	height: 100%;
+	width: 100%;
+}
+#Card_shirt_six{
+	background-image: url(../img/Card_shirt_6.png);	
+	height: 100%;
+	width: 100%;
+}
+#Card_shirt_seven{
+	background-image: url(../img/Card_shirt_7.png);	
+	height: 100%;
+	width: 100%;
+}
+#Card_shirt_eight{
+	background-image: url(../img/Card_shirt_8.png);	
+	height: 100%;
+	width: 100%;
+}
+#Card_shirt_nine{
+	background-image: url(../img/Card_shirt_9.png);	
+	height: 100%;
+	width: 100%;
+}
+.active_shirt{
+	border: 3px solid #04ff00;
+}
+#info{
+	float: right;
+	margin-top: -230px;
+	color: #04ff00;
+	
+}
+#main_menu, Highscore{
+	margin-top: -150px;
+	color: #04ff00;
+}
+#Difficulty_level{
+    display: flex;
+	justify-content: center;
+}
+
+#Difficulty_level button{
+    margin: 50px;
+}
+
+span{
+	font-size: 20px;
+}
+.test{
+	background-image: url(../img/Card_shirt_1.png);
+	
+}
+
+.new1{
+	background-image: url(../img/Card_shirt_1.png);	
+}
+.new2{
+	background-image: url(../img/Card_shirt_2.png);	
+}
+.new3{
+	background-image: url(../img/Card_shirt_3.png);	
+}
+.new4{
+	background-image: url(../img/Card_shirt_4.png);	
+}
+.new5{
+	background-image: url(../img/Card_shirt_5.png);	
+}
+.new6{
+	background-image: url(../img/Card_shirt_6.png);	
+}
+.new7{
+	background-image: url(../img/Card_shirt_7.png);	
+}
+.new8{
+	background-image: url(../img/Card_shirt_8.png);	
+}
+.new9{
+	background-image: url(../img/Card_shirt_9.png);	
+}
+
+[data-view="card"] {
+  transform: rotateY(180deg);
+  width: 130px;
+  height: 183px;
+  margin: 5px;
+  float: left;
+  cursor: pointer;
+  background-color: #ffffff;
+  border-radius: 5px;
+ /* background-image: url(../img/Card_shirt_1.png);
+  */
+}
+#container{
+	width: 1200px;
+	text-align: center;
+	margin:auto;
+}
+#container p{
+	font-size: 50px;
+}
+.flipped {
+  transition: 0.2s;
+  transform-style: preserve-3d;
+  position: relative;
+  transform: rotateY(0deg);
+}
+
+.reverse1 {
+  transition: 0.2s;
+  transform-style: preserve-3d;
+  position: relative;
+  transform: rotateY(180deg);
+  background-image: url(../img/Card_shirt_1.png);
+}
+
+.reverse2 {
+  transition: 0.2s;
+  transform-style: preserve-3d;
+  position: relative;
+  transform: rotateY(180deg);
+  background-image: url(../img/Card_shirt_2.png);
+}
+.reverse3 {
+  transition: 0.2s;
+  transform-style: preserve-3d;
+  position: relative;
+  transform: rotateY(180deg);
+  background-image: url(../img/Card_shirt_3.png);
+}
+.reverse4 {
+  transition: 0.2s;
+  transform-style: preserve-3d;
+  position: relative;
+  transform: rotateY(180deg);
+  background-image: url(../img/Card_shirt_4.png);
+}
+.reverse5 {
+  transition: 0.2s;
+  transform-style: preserve-3d;
+  position: relative;
+  transform: rotateY(180deg);
+  background-image: url(../img/Card_shirt_5.png);
+}
+.reverse6 {
+  transition: 0.2s;
+  transform-style: preserve-3d;
+  position: relative;
+  transform: rotateY(180deg);
+  background-image: url(../img/Card_shirt_6.png);
+}
+.reverse7 {
+  transition: 0.2s;
+  transform-style: preserve-3d;
+  position: relative;
+  transform: rotateY(180deg);
+  background-image: url(../img/Card_shirt_7.png);
+}
+.reverse8 {
+  transition: 0.2s;
+  transform-style: preserve-3d;
+  position: relative;
+  transform: rotateY(180deg);
+  background-image: url(../img/Card_shirt_8.png);
+}
+.reverse9 {
+  transition: 0.2s;
+  transform-style: preserve-3d;
+  position: relative;
+  transform: rotateY(180deg);
+  background-image: url(../img/Card_shirt_9.png);
+}
+.correct {
+  transition: 0.8s;
+  opacity: 0.2;
+  cursor: default;
+  transform-style: preserve-3d;
+  position: relative;
+  transform: translateX(-5000%);
+}
+.correct[data-item="1"],
+.flipped[data-item="1"] {
+  background: url("../img/1.png") left center no-repeat;
+  background-size: contain;
+}
+
+.correct[data-item="2"],
+.flipped[data-item="2"] {
+  background: url("../img/2.png") left center no-repeat;
+  background-size: contain;
+}
+
+.correct[data-item="3"],
+.flipped[data-item="3"] {
+  background: url("../img/3.png") left center no-repeat;
+  background-size: contain;
+}
+
+.correct[data-item="4"],
+.flipped[data-item="4"] {
+  background: url("../img/4.png") left center no-repeat;
+  background-size: contain;
+}
+
+.correct[data-item="5"],
+.flipped[data-item="5"] {
+  background: url("../img/5.png") left center no-repeat;
+  background-size: contain;
+}
+
+.correct[data-item="6"],
+.flipped[data-item="6"] {
+  background: url("../img/6.png") left center no-repeat;
+  background-size: contain;
+}
+
+.correct[data-item="7"],
+.flipped[data-item="7"] {
+  background: url("../img/7.png") left center no-repeat;
+  background-size: contain;
+}
+
+.correct[data-item="8"],
+.flipped[data-item="8"] {
+  background: url("../img/8.png") left center no-repeat;
+  background-size: contain;
+}
