@@ -1,6 +1,6 @@
 function next(){
 if (localStorage.getItem('Difficulty_local')=='2x8'){
-    document.location.href = 'start_game.html';
+    document.location.href = 'start_game.HTML';
     document.getElementById('2x8').classList.add('dificult-active');
 }
 else if(localStorage.getItem('Difficulty_local')=='3x6'){
