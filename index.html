@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>	
+    <div class="mainground">
+        <section class="Background">
+            <a class="Wrapper" ><h1>Gorelov Denis Game</h1></a>
+            <br> <div id="abc"><p>Happy B-day!</p></div>
+            <div id="menu">
+                <button id="Map1" class="Button1" value="" onclick="location.href='#Profile'">Profile
+                    
+                </button>
+                <button id="Map2" class="Button1" value="" onclick="location.href='Highscore.html'"">Highscore
+                    
+                    
+                </button>
+                <button id="Map3" class="Button1"  onclick="window.location.href='#How_to_play'" > How to play
+                    
+                </button>
+                <button id="123" class="Button1" onclick="window.location.href='#About_game'">About game
+
+                </button>
+            </div>
+            <div id="How_to_play">
+                How to play<br><p>1. Press "Profile" to fill out the personal information .
+                    <br>2. Select difficulty.<br>3. Select a card shirt.
+                    <br>4. The game will start when You click on the card.
+                    <br><br>To Play<br>1. Select two cards to try match the pictures.
+                    <br>2. If you match the pictures you can go again.
+                    <br>3. If they don't match computer turn them.
+                    <br>4. Try to match all pairs
+                    <br>5. Have Fun!!!</p>
+                <button id="Close_button" class="Button1" onclick="window.location.href='#'"">Close</button>
+            </div>
+            
+
+            <div id="About_game">
+        About game<br><p>Game for you, Artem!!!!!!!!!!!!!!!!!!!!!! GL HF!!!!!!</p>
+        <button id="Close_button2" class="Button1" onclick="window.location.href='#'"">Close</button>
+        </div>
+        <div id="Profile">
+            
+            <p>Player Profile</p>
+            <table style="width:400px;" id="tbl" >
+
+                <tr>
+                    <td>First name</td>
+                    <td>
+                        <input id="First_name" type="text" class="c1" onkeyup="check();" value=""></td>
+                </tr>
+                <tr>
+                    <td>Last name</td>
+                    <td>
+                        <input type="text" id="Last_name" class="c1" onkeyup="check();" required="" value=""></input></td>
+                </tr>
+                <tr>
+                    <td>E-mail</td>
+                    <td>
+                        <input id="E_mail" type="text" class="c1" onkeyup="check();" value="@gmail.com" ></td>
+
+
+
+                </tr>
+                    </table>
+            <div id="Profile_buttons" >
+                <button id="btnclear" type="button" value="Clear" onkeyup="clear()" />Clear</button>
+                <button id="Close_button2" class="Button1" onclick="window.location.href='#'"">Close</button>
+                <input type="submit" id="Send" disabled="disabled" value="Next" onclick="window.location.href='Card_select.html'" />
+            </div>
+        </div>
+        
+    
+
+        </section>
+    </div>
+	<script src="JS/Profile_JS.js"></script>
+	</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style_Highscore_save.css">
+</head>
+<body>
+    <div class="mainground">
+        <section class="Background">
+        <h1>Match-Match Game</h1>
+        <div>
+
+        <div><br><br>
+            <p id="HS">Highscore</p>
+            <div id="Score_menu">
+            <table style="width:400px;" id="tbl" >
+
+                <tr>
+                    <td>First name</td>
+                    <td>
+                        <input id="First_name" type="text" class="c1"  value="" readonly=""></td>
+                </tr>
+                <tr>
+                    <td>Last name</td>
+                    <td>
+                        <input type="text" id="Last_name" class="c1"  required="" value="" readonly=""></input></td>
+                </tr>
+                <tr>
+                    <td>E-mail</td>
+                    <td>
+                        <input id="E_mail" type="text" class="c1" value="@gmal.com" readonly=""></td>
+
+
+
+                </tr>
+
+                    <td>Score</td>
+                    <td>
+                        <input id="Score_id" type="text" class="c1" value="" readonly="" /></td>
+
+
+
+                </tr>
+                    </table>
+                    <p>
+                <input id="btnsave" type="button" value="Save Records" />
+                <input id="btnclear" type="button" value="Clear" /><br>
+                <input id="btnclearstorage" type="button" value="Clear Records" />
+                <input id="Main_menu" type="button" value="Main menu" onclick="location.href='index.html'" />
+            </p>
+        </div>
+            <div id="dvcontainer"></div>
+        </section>
+    </div>
+	<script src="JS/Highscore_save.js"></script>
+</body>
+</html>
