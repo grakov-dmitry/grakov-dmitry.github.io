@@ -35,7 +35,6 @@ p{
 .mainground{
 	display: flex;
     justify-content: center;
-	background: radial-gradient(#09ff00, black);
 }
 table{
 	text-align: center;
@@ -54,6 +53,7 @@ tr{
 
 body{
 	margin: 0;
+	background: radial-gradient(#09ff00, black);
 }
 
 #HS{

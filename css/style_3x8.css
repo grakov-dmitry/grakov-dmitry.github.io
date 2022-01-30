@@ -10,6 +10,7 @@ body{
 	width: 100%;
 	padding: 0 auto;
 	margin: 0 auto;
+  background: radial-gradient(#09ff00, black);
 }
 .Background{
 	background-image: url(../img/Background.jpeg);
@@ -19,7 +20,6 @@ body{
 .mainground{
 	display: flex;
   justify-content: center;
-  background: radial-gradient(#09ff00, black);
 }
 h1{
 	font-family: 'NewRocker-Regular';
