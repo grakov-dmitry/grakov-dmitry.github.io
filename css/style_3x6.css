@@ -23,6 +23,7 @@ body{
 .mainground{
 	display: flex;
   justify-content: center;
+  background: radial-gradient(#09ff00, black);
 }
 h1{
 	font-family: 'NewRocker-Regular';

@@ -19,6 +19,7 @@ body{
 .mainground{
 	display: flex;
     justify-content: center;
+	background: radial-gradient(#09ff00, black);
 }
 #abc{
 font-family: 'NewRocker-Regular';
